@@ -91,19 +91,19 @@ class ProfesorSeeder extends Seeder
         ]);
 
         Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '1A',
             'idProfesor' => $user1->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '1A',
             'idProfesor' => $user1->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '1A',
             'idProfesor' => $user1->id,
         ]);
@@ -116,19 +116,19 @@ class ProfesorSeeder extends Seeder
         ]);
 
         Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '1B',
             'idProfesor' => $user1->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '1B',
             'idProfesor' => $user1->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '1B',
             'idProfesor' => $user1->id,
         ]);
@@ -140,19 +140,19 @@ class ProfesorSeeder extends Seeder
         ]);
 
         Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '2A',
             'idProfesor' => $user2->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '2A',
             'idProfesor' => $user2->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '2A',
             'idProfesor' => $user2->id,
         ]);
@@ -164,19 +164,19 @@ class ProfesorSeeder extends Seeder
         ]);
 
         Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '2B',
             'idProfesor' => $user2->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '2B',
             'idProfesor' => $user2->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '2B',
             'idProfesor' => $user2->id,
         ]);
@@ -188,19 +188,19 @@ class ProfesorSeeder extends Seeder
         ]);
 
         Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '3A',
             'idProfesor' => $user3->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '3A',
             'idProfesor' => $user3->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '3A',
             'idProfesor' => $user3->id,
         ]);
@@ -212,19 +212,19 @@ class ProfesorSeeder extends Seeder
         ]);
 
         Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '3B',
             'idProfesor' => $user3->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '3B',
             'idProfesor' => $user3->id,
         ]);
 
         Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '3B',
             'idProfesor' => $user3->id,
         ]);

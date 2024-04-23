@@ -141,149 +141,149 @@ class AllSeeder extends Seeder
             'nivel' => '6',
         ]);
 
-        //!! 24 materias Matematicas 1A, Lenguaje 1A, Ciencias Sociales 1A, Biologia 1A, Matematicas 1B, Lenguaje 1B, Ciencias Sociales 1B, Biologia 1B, Matematicas 2A, Lenguaje 2A, Ciencias Sociales 2A, Biologia 2A, Matematicas 2B, Lenguaje 2B, Ciencias Sociales 2B, Biologia 2B, Matematicas 3A, Lenguaje 3A, Ciencias Sociales 3A, Biologia 3A, Matematicas 3B, Lenguaje 3B, Ciencias Sociales 3B, Biologia 3B
+        //!! 24 materias Lengua y Literatura 1A, Ciencias Naturales 1A, Educación Artística 1A, Tecnología o Informática 1A, Lengua y Literatura 1B, Ciencias Naturales 1B, Educación Artística 1B, Tecnología o Informática 1B, Lengua y Literatura 2A, Ciencias Naturales 2A, Educación Artística 2A, Tecnología o Informática 2A, Lengua y Literatura 2B, Ciencias Naturales 2B, Educación Artística 2B, Tecnología o Informática 2B, Lengua y Literatura 3A, Ciencias Naturales 3A, Educación Artística 3A, Tecnología o Informática 3A, Lengua y Literatura 3B, Ciencias Naturales 3B, Educación Artística 3B, Tecnología o Informática 3B
 
         $materia1 = Materia::create([
-            'nombre' => 'Matematicas',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '1A',
             'idProfesor' => $user1->id,
         ]);
 
         $materia2 = Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '1A',
             'idProfesor' => $user1->id,
         ]);
 
         $materia3 = Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Educación Artística',
             'grupo' => '1A',
             'idProfesor' => $user1->id,
         ]);
 
         $materia4 = Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '1A',
             'idProfesor' => $user1->id,
         ]);
 
 
         $materia5 = Materia::create([
-            'nombre' => 'Matematicas',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '1B',
             'idProfesor' => $user1->id,
         ]);
 
         $materia6 = Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '1B',
             'idProfesor' => $user1->id,
         ]);
 
         $materia7 = Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Educación Artística',
             'grupo' => '1B',
             'idProfesor' => $user1->id,
         ]);
 
         $materia8 = Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '1B',
             'idProfesor' => $user1->id,
         ]);
 
         $materia9 = Materia::create([
-            'nombre' => 'Matematicas',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '2A',
             'idProfesor' => $user2->id,
         ]);
 
         $materia10 = Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '2A',
             'idProfesor' => $user2->id,
         ]);
 
         $materia11 = Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Educación Artística',
             'grupo' => '2A',
             'idProfesor' => $user2->id,
         ]);
 
         $materia12 = Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '2A',
             'idProfesor' => $user2->id,
         ]);
 
         $materia13 = Materia::create([
-            'nombre' => 'Matematicas',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '2B',
             'idProfesor' => $user2->id,
         ]);
 
         $materia14 = Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '2B',
             'idProfesor' => $user2->id,
         ]);
 
         $materia15 = Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Educación Artística',
             'grupo' => '2B',
             'idProfesor' => $user2->id,
         ]);
 
         $materia16 = Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '2B',
             'idProfesor' => $user2->id,
         ]);
 
         $materia17 = Materia::create([
-            'nombre' => 'Matematicas',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '3A',
             'idProfesor' => $user3->id,
         ]);
 
         $materia18 = Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '3A',
             'idProfesor' => $user3->id,
         ]);
 
         $materia19 = Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Educación Artística',
             'grupo' => '3A',
             'idProfesor' => $user3->id,
         ]);
 
         $materia20 = Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '3A',
             'idProfesor' => $user3->id,
         ]);
 
         $materia21 = Materia::create([
-            'nombre' => 'Matematicas',
+            'nombre' => 'Lengua y Literatura',
             'grupo' => '3B',
             'idProfesor' =>$user3->id,
         ]);
 
         $materia22 = Materia::create([
-            'nombre' => 'Lenguaje',
+            'nombre' => 'Ciencias Naturales',
             'grupo' => '3B',
             'idProfesor' => $user3->id,
         ]);
 
         $materia23 = Materia::create([
-            'nombre' => 'Ciencias Sociales',
+            'nombre' => 'Educación Artística',
             'grupo' => '3B',
             'idProfesor' => $user3->id,
         ]);
 
         $materia24 = Materia::create([
-            'nombre' => 'Biologia',
+            'nombre' => 'Tecnología o Informática',
             'grupo' => '3B',
             'idProfesor' => $user3->id,
         ]);
@@ -427,124 +427,125 @@ class AllSeeder extends Seeder
         //!! 20 estudiantes
 
         $use1 = User::create([
-            'name' => 'Manuel Ortiz',
+            'name' => 'Juan Pérez',
             'email' => 'estudiante1@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use2 = User::create([
-            'name' => 'Alejandra Soto',
+            'name' => 'Ana Gómez',
             'email' => 'estudiante2@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use3 = User::create([
-            'name' => 'Luis García',
+            'name' => 'Carlos Sánchez',
             'email' => 'estudiante3@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
-
+        
         $use4 = User::create([
-            'name' => 'María Fernández',
+            'name' => 'Laura Rodríguez',
             'email' => 'estudiante4@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use5 = User::create([
-            'name' => 'Carlos López',
+            'name' => 'Pedro López',
             'email' => 'estudiante5@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use6 = User::create([
-            'name' => 'Ana Martínez',
+            'name' => 'María Martínez',
             'email' => 'estudiante6@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use7 = User::create([
-            'name' => 'Jorge Rodríguez',
+            'name' => 'José González',
             'email' => 'estudiante7@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use8 = User::create([
-            'name' => 'Laura Pérez',
+            'name' => 'Elena Pérez',
             'email' => 'estudiante8@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use9 = User::create([
-            'name' => 'Diego González',
+            'name' => 'Sofía Ramírez',
             'email' => 'estudiante9@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use10 = User::create([
-            'name' => 'Natalia Ramírez',
+            'name' => 'Luisa González',
             'email' => 'estudiante10@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use11 = User::create([
-            'name' => 'Gabriel Torres',
+            'name' => 'David Torres',
             'email' => 'estudiante11@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use12 = User::create([
-            'name' => 'Paola Vargas',
+            'name' => 'Carmen Vargas',
             'email' => 'estudiante12@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use13 = User::create([
-            'name' => 'José Gómez',
+            'name' => 'Pedro Gómez',
             'email' => 'estudiante13@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use14 = User::create([
-            'name' => 'Camila Díaz',
+            'name' => 'Daniela Díaz',
             'email' => 'estudiante14@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use15 = User::create([
-            'name' => 'Martín Ruiz',
+            'name' => 'Mateo Ruiz',
             'email' => 'estudiante15@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use16 = User::create([
-            'name' => 'Valentina Sánchez',
+            'name' => 'Isabella Sánchez',
             'email' => 'estudiante16@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use17 = User::create([
-            'name' => 'Andrés Castro',
+            'name' => 'Andrea Castro',
             'email' => 'estudiante17@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use18 = User::create([
-            'name' => 'Fernanda Mendoza',
+            'name' => 'Lucía Mendoza',
             'email' => 'estudiante18@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use19 = User::create([
-            'name' => 'Ricardo Medina',
+            'name' => 'Roberto Medina',
             'email' => 'estudiante19@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
         
         $use20 = User::create([
-            'name' => 'Paula Castillo',
+            'name' => 'María Castillo',
             'email' => 'estudiante20@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Estudiante');
+        
         
 
         $estudiante1 = Estudiante::create([
@@ -710,59 +711,59 @@ class AllSeeder extends Seeder
         //!! 20 padres
 
         $padre1 = User::create([
-            'name' => 'Alejandro Martínez',
+            'name' => 'Gabriel Martínez',
             'email' => 'padre1@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre2 = User::create([
-            'name' => 'Sofía Rodríguez',
+            'name' => 'Ana Rodríguez',
             'email' => 'padre2@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre3 = User::create([
-            'name' => 'Carlos Rodríguez',
+            'name' => 'Javier Rodríguez',
             'email' => 'padre3@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre4 = User::create([
             'name' => 'María Martínez',
-            'email' => 'padre4@gmai.com',
+            'email' => 'padre4@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre5 = User::create([
-            'name' => 'Luis González',
+            'name' => 'Roberto González',
             'email' => 'padre5@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre6 = User::create([
             'name' => 'Laura González',
             'email' => 'padre6@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre7 = User::create([
-            'name' => 'Juan García',
+            'name' => 'Pedro García',
             'email' => 'padre7@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre8 = User::create([
-            'name' => 'Andrea García',
+            'name' => 'Elena García',
             'email' => 'padre8@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre9 = User::create([
-            'name' => 'Pedro López',
+            'name' => 'David López',
             'email' => 'padre9@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre10 = User::create([
             'name' => 'Natalia López',
             'email' => 'padre10@gmail.com',
@@ -770,29 +771,29 @@ class AllSeeder extends Seeder
         ])->assignRole('Padre');
 
         $padre11 = User::create([
-            'name' => 'Gabriel Torres',
+            'name' => 'David Torres',
             'email' => 'padre11@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre12 = User::create([
-            'name' => 'Ana Pérez',
+            'name' => 'María Pérez',
             'email' => 'padre12@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre13 = User::create([
-            'name' => 'Diego Cruz',
+            'name' => 'Javier Cruz',
             'email' => 'padre13@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre14 = User::create([
-            'name' => 'Valentina Sánchez',
+            'name' => 'Isabella Sánchez',
             'email' => 'padre14@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre15 = User::create([
             'name' => 'Fernando Morales',
             'email' => 'padre15@gmail.com',
@@ -800,13 +801,13 @@ class AllSeeder extends Seeder
         ])->assignRole('Padre');
         
         $padre16 = User::create([
-            'name' => 'Carmen Ramírez',
+            'name' => 'Carolina Ramírez',
             'email' => 'padre16@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre17 = User::create([
-            'name' => 'Pablo Gómez',
+            'name' => 'Pedro Gómez',
             'email' => 'padre17@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
@@ -818,19 +819,19 @@ class AllSeeder extends Seeder
         ])->assignRole('Padre');
         
         $padre19 = User::create([
-            'name' => 'Ricardo Hernández',
+            'name' => 'Roberto Hernández',
             'email' => 'padre19@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre20 = User::create([
-            'name' => 'Paula Fernández',
+            'name' => 'María Fernández',
             'email' => 'padre20@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre21 = User::create([
-            'name' => 'Daniel Torres',
+            'name' => 'Eduardo Torres',
             'email' => 'padre21@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
@@ -848,25 +849,25 @@ class AllSeeder extends Seeder
         ])->assignRole('Padre');
         
         $padre24 = User::create([
-            'name' => 'Patricia Morales',
-            'email' => 'padre24@gmai.com',
+            'name' => 'Paula Morales',
+            'email' => 'padre24@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre25 = User::create([
-            'name' => 'Sergio Vargas',
+            'name' => 'Santiago Vargas',
             'email' => 'padre25@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre26 = User::create([
-            'name' => 'Camila Gómez',
+            'name' => 'Catalina Gómez',
             'email' => 'padre26@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre27 = User::create([
-            'name' => 'Adrián Flores',
+            'name' => 'Juan Flores',
             'email' => 'padre27@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
@@ -890,37 +891,37 @@ class AllSeeder extends Seeder
         ])->assignRole('Padre');
         
         $padre31 = User::create([
-            'name' => 'Óscar Palacios',
+            'name' => 'Alberto Palacios',
             'email' => 'padre31@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre32 = User::create([
-            'name' => 'Marta Ruiz',
+            'name' => 'Laura Ruiz',
             'email' => 'padre32@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre33 = User::create([
-            'name' => 'José Gonzales',
+            'name' => 'Juan Gonzales',
             'email' => 'padre33@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre34 = User::create([
-            'name' => 'Isabel Vargas',
+            'name' => 'María Vargas',
             'email' => 'padre34@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
-
+        
         $padre35 = User::create([
-            'name' => 'Martín Pomacusi',
+            'name' => 'Jorge Pomacusi',
             'email' => 'padre35@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre36 = User::create([
-            'name' => 'Elena Flores',
+            'name' => 'Ana Flores',
             'email' => 'padre36@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
@@ -932,22 +933,23 @@ class AllSeeder extends Seeder
         ])->assignRole('Padre');
         
         $padre38 = User::create([
-            'name' => 'Diana Jiménez',
+            'name' => 'Laura Jiménez',
             'email' => 'padre38@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre39 = User::create([
-            'name' => 'Ricardo Quispe',
+            'name' => 'Roberto Quispe',
             'email' => 'padre39@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
         
         $padre40 = User::create([
-            'name' => 'Marina Ortega',
+            'name' => 'María Ortega',
             'email' => 'padre40@gmail.com',
             'password' => bcrypt('password'),
         ])->assignRole('Padre');
+        
         
 
 
