@@ -14,19 +14,7 @@
         <div class="row">
           <div class="col-md-2">
             <div class="sticky-top mb-3">
-              <div class="card">
-                <div class="card-header">
-                  <h4 class="card-title">Tipos de eventos</h4>
-                </div>
-                <div class="card-body">
-                  <!-- the events -->
-                  <div id="external-events">
-                    <div class="external-event bg-success">TAREAS</div>
-                    <div class="external-event bg-danger">COMUNICADOS</div>
-                  </div>
-                </div>
-                <!-- /.card-body -->
-              </div>
+              
               <!-- /.card -->
               {{-- <div class="card">
                 <div class="card-header">
